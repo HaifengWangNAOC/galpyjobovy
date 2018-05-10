@@ -6,7 +6,7 @@ environment:
 
   matrix:
     - TEST_FILES: "tests\\ --ignore=tests\\test_actionAngleTorus.py --ignore=tests\\test_snapshotpotential.py --ignore=tests\\test_qdf.py --ignore=tests\\test_pv2qdf.py --ignore=tests\\test_diskdf.py --ignore=tests\\test_orbit.py --ignore=tests\\test_streamdf.py --ignore=tests\\test_streamgapdf.py --ignore=tests\\test_evolveddiskdf.py --ignore=tests\\test_quantity.py --ignore=tests\\test_nemo.py --ignore=tests\\test_coords.py"
-      ADDL_CONDA_PKGS: 
+      ADDL_CONDA_PKGS:  
       COMPILE_NOOPENMP: 
 
     - TEST_FILES: tests\test_orbit.py
