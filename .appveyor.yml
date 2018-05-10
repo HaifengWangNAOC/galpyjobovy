@@ -11,11 +11,11 @@ environment:
 
     - TEST_FILES: tests\test_orbit.py
       ADDL_CONDA_PKGS: astropy
-      COMPILE_NOOPENMP: --no-openmp
+      COMPILE_NOOPENMP: "--no-openmp"
 
     - TEST_FILES: tests\test_quantity.py tests\test_coords.py
       ADDL_CONDA_PKGS: astropy
-      COMPILE_NOOPENMP: --no-openmp
+      COMPILE_NOOPENMP: "--no-openmp"
 
 platform:
     - x64
